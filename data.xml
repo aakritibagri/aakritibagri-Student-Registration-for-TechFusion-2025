@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <courses>
+        <course id="CSE">Computer Science</course>
+        <course id="IT">Information Technology</course>
+        <course id="ENTC">Electronics and Telecommunication</course>
+    </courses>
+    <events>
+        <event id="e1">Hackathon</event>
+        <event id="e2">Quiz</event>
+        <event id="e3">Workshop</event>
+    </events>
+</root>
+
