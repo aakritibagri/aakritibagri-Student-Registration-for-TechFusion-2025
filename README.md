@@ -21,7 +21,8 @@ The platform simplifies student registration by offering an intuitive interface 
 - Frontend: HTML, CSS, JavaScript
 - Data Handling: XML (for structured storage of registration details)
 ## Screenshots
-
+<img src="MainPage.png">
+<img src="Registrationform.png">
 
 ## Remarks
 - Requires more additional function and make it more user friendly by adding chatbot
