@@ -18,17 +18,20 @@ body {
 .navbar a {
     float: left;
     display: block;
-    color: rgb(19, 130, 31);
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
     text-decoration: underline;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 p{
     text-align: justify;
 }
 h1,h2{
     text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .image-container{
@@ -43,18 +46,22 @@ h1,h2{
     font-family: 'Times New Roman', Times, serif;
 }
 ul li {
-    color: rgba(20, 35, 146, 0.767); /* Change text color to blue */
+    background-color: rgba(0, 92, 173, 0.447);
+    color: rgb(255, 255, 255); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 p {
-    font-family: 'Times New Roman', sans-serif; /* Change to Arial font */
-    color: rgb(71, 51, 90);
+    font-family: 'Times New Roman', sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 92, 173, 0.447);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 table{
     background-color: black;
     text-align: center;
 }
 footer {
-    background-color: black;
+    background-color: #36e8df;
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -65,3 +72,12 @@ footer {
 .center-table {
     margin: 0 auto;
 }
+body {
+    background-image: url('bg.png');
+    background-size: cover;
+    background-attachment: fixed; /* Makes the image fixed while scrolling */
+    background-position: center;
+    backdrop-filter: blur(2px);
+}
+
+
